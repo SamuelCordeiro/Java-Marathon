@@ -21,4 +21,10 @@ public class Utils {
 	public static double ReadDouble() {
 		return scan.nextDouble();
 	}
+	
+	public static String ReadString() {
+		return scan.next();
+	}
+	
+	
 }

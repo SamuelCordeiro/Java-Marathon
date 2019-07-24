@@ -4,8 +4,8 @@ public class Ex1 {
 
 	public static void main(String[] args) {
 		
-		/*Faça um programa para somar dois números e
-		 * multiplicar o resultado pelo primeiro número.*/
+		/*Faca um programa para somar dois numeros e
+		 * multiplicar o resultado pelo primeiro numero.*/
 		
 		Utils.Print("Digite um numero:");
 		float numero1 = Utils.ReadFloat();

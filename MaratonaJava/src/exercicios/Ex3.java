@@ -4,20 +4,20 @@ public class Ex3 {
 
 	public static void main(String[] args) {
 		/*Construa um programa que:
-		 * Leia a cotação do dólar
-		 * Leia um valor em dólares
+		 * Leia a cotaÃ§Ã£o do dolar
+		 * Leia um valor em dolares
 		 * Converta esse valor para Real
 		 * Mostre o resultado
 		 */
 		
-		Utils.Print("Digite a cotação do Dolar");
+		Utils.Print("Digite a cotaÃ§Ã£o do Dolar");
 		float cotacaoDolar = Utils.ReadFloat();
 		
 		Utils.Print("Digite um valor para ser convertido em Reais");
 		float valorDolar = Utils.ReadFloat();
 		
-		Utils.Print("Com a cotação de " + cotacaoDolar + " o valor de " + valorDolar +
-				" Dolares são: " + (cotacaoDolar * valorDolar) + " em Reais.");
+		Utils.Print("Com a cotaÃ§Ã£o de " + cotacaoDolar + " o valor de " + valorDolar +
+				" Dolares sÃ£o: " + (cotacaoDolar * valorDolar) + " em Reais.");
 	}
 
 }

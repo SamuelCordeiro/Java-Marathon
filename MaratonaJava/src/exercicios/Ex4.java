@@ -5,7 +5,7 @@ public class Ex4 {
 	public static void main(String[] args) {
 		
 		/*Desenvolva um programa que:
-		 * Leia 4 (quatro) números
+		 * Leia 4 (quatro) numeros
 		 * Calcule o quadrado para cada um
 		 * Somem todos 
 		 * Mostre o resultado*/
@@ -17,7 +17,7 @@ public class Ex4 {
 			soma = soma + Math.pow(Utils.ReadDouble(), 2);
 		}
 		
-		Utils.Print("O resultado é: " + soma); 
+		Utils.Print("O resultado Ã©: " + soma); 
 	}
 
 }
