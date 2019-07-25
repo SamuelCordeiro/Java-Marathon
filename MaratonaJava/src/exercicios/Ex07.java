@@ -1,6 +1,6 @@
 package exercicios;
 
-public class Ex7 {
+public class Ex07 {
 
 	public static void main(String[] args) {
 		/*Construa um programa para ler uma variável numérica N

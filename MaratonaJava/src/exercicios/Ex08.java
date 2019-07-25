@@ -1,6 +1,6 @@
 package exercicios;
 
-public class Ex8 {
+public class Ex08 {
 
 	public static void main(String[] args) {
 		/*Tendo como dados de entrada a altura e o sexo de uma pessoa,

@@ -1,6 +1,6 @@
 package exercicios;
 
-public class Ex3 {
+public class Ex03 {
 
 	public static void main(String[] args) {
 		/*Construa um programa que:

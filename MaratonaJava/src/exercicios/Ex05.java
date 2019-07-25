@@ -1,6 +1,6 @@
 package exercicios;
 
-public class Ex5 {
+public class Ex05 {
 
 	public static void main(String[] args) {
 		/*Elabore um programa que leia um número. 

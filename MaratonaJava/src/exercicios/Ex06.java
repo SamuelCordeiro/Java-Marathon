@@ -1,6 +1,6 @@
 package exercicios;
 
-public class Ex6 {
+public class Ex06 {
 
 	public static void main(String[] args) {
 		/*Ler um número e verificar se ele é par ou ímpar. 
