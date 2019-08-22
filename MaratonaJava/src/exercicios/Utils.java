@@ -26,5 +26,7 @@ public class Utils {
 		return scan.next();
 	}
 	
-	
+	public static char ReadChar() {
+		return scan.next().charAt(0);
+	}
 }

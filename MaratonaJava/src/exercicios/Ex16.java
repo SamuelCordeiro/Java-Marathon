@@ -1,21 +1,21 @@
 package exercicios;
 
-import java.util.Arrays;
-
 public class Ex16 {
 
 	public static void main(String[] args) {
-		/*Escreva um programa que leia três valores inteiros diferentes e 
-		 *mostre-os em ordem crescente.*/
+		/*Faça um programa que fornecido três números inteiros e positivos, 
+		 *exiba o maior deles.*/
 		
 		int vet[] = new int[3];
-		
+		int maior = 0;
 		for (int i = 0; i < 3; i++){
 			Utils.Print("Digite um numero");
 			vet[i] = Utils.ReadInt();
+			
+			if(vet[i] > maior){
+				maior = vet[i];
+			}
 		}
-		
-		Arrays.sort(vet);
-		Utils.Print(Arrays.toString(vet));	
+		Utils.Print("O maior numero é: " + maior);	
 	}
 }
