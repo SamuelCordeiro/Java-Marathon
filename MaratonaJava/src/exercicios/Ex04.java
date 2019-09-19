@@ -13,11 +13,11 @@ public class Ex04 {
 		double soma = 0; 
 		
 		for(int i = 0; i < 4; i++) {
-			Utils.Print("Digite um numero:");
-			soma = soma + Math.pow(Utils.ReadDouble(), 2);
+			Utils.print("Digite um numero:");
+			soma = soma + Math.pow(Utils.readDouble(), 2);
 		}
 		
-		Utils.Print("O resultado é: " + soma); 
+		Utils.print("O resultado é: " + soma); 
 	}
 
 }

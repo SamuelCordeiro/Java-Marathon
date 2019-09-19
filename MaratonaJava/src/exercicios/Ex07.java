@@ -7,12 +7,12 @@ public class Ex07 {
 		 * e imprimi-la somente se a mesma for maior que 100
 		 *  caso contrário imprimi-la com o valor zero.*/
 		
-		Utils.Print("Digite um numero");
-		int n = Utils.ReadInt();
+		Utils.print("Digite um numero");
+		int n = Utils.readInt();
 		if(n > 100) {
-			Utils.Print(n);
+			Utils.print(n);
 		}else {
-			Utils.Print("0");
+			Utils.print("0");
 		}
 	}
 

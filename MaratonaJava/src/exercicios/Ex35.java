@@ -9,16 +9,16 @@ public class Ex35 {
 		 *   ****************************
 		 *   * 	  FELIZ ANIVERSARIO     *
 		 *   **************************** */
-		Aniversario();
+		aniversario();
 	}
 	public static void Asterisco() {
 		for(int i = 0; i < 22; i++){
 			System.out.print("*");
 		}
 	}
-	public static void Aniversario() {
+	public static void aniversario() {
 		Asterisco();
-		Utils.Print("\n* FELIZ ANIVERSARIO  *");
+		Utils.print("\n* FELIZ ANIVERSARIO  *");
 		Asterisco();
 	}
 

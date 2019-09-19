@@ -14,18 +14,18 @@ public class Ex23 {
 		int[] vetA = new int[tamanho], vetB = new int[tamanho], vetC = new int[tamanho];
 		
 		for(int i = 0; i < vetA.length; i++) {
-			Utils.Print("Digite um numero para o primeiro vetor");
-			vetA[i] = Utils.ReadInt();
+			Utils.print("Digite um numero para o primeiro vetor");
+			vetA[i] = Utils.readInt();
 		}
 		for(int i = 0; i < vetB.length; i++) {
-			Utils.Print("Digite um numero para o segundo vetor");
-			vetB[i] = Utils.ReadInt();
+			Utils.print("Digite um numero para o segundo vetor");
+			vetB[i] = Utils.readInt();
 		}
 		for(int i = 0; i < vetC.length; i++) {
 			vetC[i] = vetA[i] + vetB[i];
 		}
 		
-		Utils.Print("Vetor A \n" + Arrays.toString(vetA) 
+		Utils.print("Vetor A \n" + Arrays.toString(vetA) 
 		+ "\nVetor B \n" + Arrays.toString(vetB) 
 		+ "\nVetor C \n" + Arrays.toString(vetC));
 	}

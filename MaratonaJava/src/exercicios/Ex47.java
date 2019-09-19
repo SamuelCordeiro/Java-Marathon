@@ -8,7 +8,7 @@ public class Ex47 {
 		 * Esta classe deverá ter um método que retornará a soma da diagonal principal.*/
 		int matriz[][] = new int[3][3];
 		Utils.preencherMatrizInt(matriz);
-		Utils.Print(somaDiagonalPrincipal(matriz));
+		Utils.print(somaDiagonalPrincipal(matriz));
 	}
 	
 	private static int somaDiagonalPrincipal(int matriz[][]) {

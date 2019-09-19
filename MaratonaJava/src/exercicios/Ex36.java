@@ -7,14 +7,14 @@ public class Ex36 {
 		 * Escreva o método main() para testar a função.*/
 		double area; 
 		double altura;
-		Utils.Print("Digite a area do retangulo");
-		area = Utils.ReadDouble();
-		Utils.Print("Digite a altura do retangulo");
-		altura = Utils.ReadDouble();
+		Utils.print("Digite a area do retangulo");
+		area = Utils.readDouble();
+		Utils.print("Digite a altura do retangulo");
+		altura = Utils.readDouble();
 		
-		Utils.Print(AreaTriangulo(area,altura));
+		Utils.print(areaTriangulo(area,altura));
 	}
-	public static double AreaTriangulo(double area, double altura) {
+	public static double areaTriangulo(double area, double altura) {
 		return (area * altura);
 	}
 

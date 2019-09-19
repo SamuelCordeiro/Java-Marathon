@@ -6,35 +6,35 @@ public class Utils {
 	
 	private static Scanner scan = new Scanner(System.in);
 	
-	public static void Print(Object toPrint) {
+	public static void print(Object toPrint) {
 		System.out.println(toPrint);
 	}
 	
-	public static int ReadInt() {
+	public static int readInt() {
 		return scan.nextInt();	
 	}
 	
-	public static float ReadFloat() {
+	public static float readFloat() {
 		return scan.nextFloat();
 	}
 	
-	public static double ReadDouble() {
+	public static double readDouble() {
 		return scan.nextDouble();
 	}
 	
-	public static String ReadString() {
+	public static String readString() {
 		return scan.next();
 	}
 	
-	public static char ReadChar() {
+	public static char readChar() {
 		return scan.next().charAt(0);
 	}
 	
 	public static int[][] preencherMatrizInt(int matriz[][]){
 		for(int i = 0; i < matriz[0].length; i++) {
 			for(int j = 0; j < matriz[1].length; j++) {
-				Utils.Print("Digite um numero");
-				matriz[i][j] = Utils.ReadInt();
+				Utils.print("Digite um numero");
+				matriz[i][j] = Utils.readInt();
 			}
 		}
 		return matriz;

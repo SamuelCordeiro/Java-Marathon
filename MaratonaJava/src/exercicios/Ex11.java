@@ -10,8 +10,8 @@ public class Ex11 {
 		int numero;
 		int maior = 0;
 		while(true) {
-			Utils.Print("Digite um numero:");
-			numero = Utils.ReadInt();
+			Utils.print("Digite um numero:");
+			numero = Utils.readInt();
 			if(maior < numero) {
 				maior = numero;
 			}
@@ -19,6 +19,6 @@ public class Ex11 {
 				break;
 			}
 		}	
-		Utils.Print("O maior numero é: " + maior);
+		Utils.print("O maior numero é: " + maior);
 	}
 }

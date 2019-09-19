@@ -9,12 +9,12 @@ public class Ex13 {
 		float numero = 0;
 		float pesos = 0;
 		for(int i = 1; i <= 5; i++){
-			Utils.Print("Digite o " + i + "° numero:");
-			numero += (Utils.ReadFloat() * i);
+			Utils.print("Digite o " + i + "° numero:");
+			numero += (Utils.readFloat() * i);
 			pesos += i;
 		}
 		
-		Utils.Print("A media é: " + (numero / pesos));
+		Utils.print("A media é: " + (numero / pesos));
 	}
 
 }

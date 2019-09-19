@@ -44,8 +44,8 @@ public class Ex50_Teste {
             }
         }
         for (int i = 0; i < formas.length; i++){
-            Utils.Print(formas[i].calcularArea());
-            Utils.Print(formas[i].calcularPerimetro());
+            Utils.print(formas[i].calcularArea());
+            Utils.print(formas[i].calcularPerimetro());
         }
     }
 	

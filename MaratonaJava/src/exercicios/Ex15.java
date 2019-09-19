@@ -6,15 +6,15 @@ public class Ex15 {
 		/*Elabore um programa que, a partir de um mês e ano fornecidos, 
 		 * valide se eles compõem uma data válida.*/
 		
-		Utils.Print("Digite um mes");
-		int mes = Utils.ReadInt();
-		Utils.Print("Digite um ano");
-		int ano = Utils.ReadInt();
+		Utils.print("Digite um mes");
+		int mes = Utils.readInt();
+		Utils.print("Digite um ano");
+		int ano = Utils.readInt();
 		
 		if(mes > 0 && mes <= 12 && ano > 0) {
-			Utils.Print(mes + "/"+ ano + " É uma data valida.");
+			Utils.print(mes + "/"+ ano + " É uma data valida.");
 		}else {
-			Utils.Print(mes + "/"+ ano + " Não é uma data valida.");
+			Utils.print(mes + "/"+ ano + " Não é uma data valida.");
 		}
 	}
 }

@@ -7,13 +7,13 @@ public class Ex33 {
 		 * apresente seu correspondente em Celsius por meio de um método. 
 		 * Para o cálculo utilize a seguinte fórmula: celsius=5.0/9.0 *(f-32).*/
 		double temperaturaF;
-		Utils.Print("Digite uma temperatura em Fahrenheit:");
-		temperaturaF = Utils.ReadDouble();
-		Utils.Print("A temperatura em Fahrenheit para Celsius:" + 
-		FahrenheitParaCelsius(temperaturaF));
+		Utils.print("Digite uma temperatura em Fahrenheit:");
+		temperaturaF = Utils.readDouble();
+		Utils.print("A temperatura em Fahrenheit para Celsius:" + 
+		fahrenheitParaCelsius(temperaturaF));
 	}
 
-	public static double FahrenheitParaCelsius(double temperaturaF) {
+	public static double fahrenheitParaCelsius(double temperaturaF) {
 		double temperaturaC = (5.0 / 9.0 * (temperaturaF - 32));
 		return temperaturaC ;
 	}

@@ -11,23 +11,20 @@ public class Ex18 {
 		int anoNascimento;
 		int idade;
 		
-		Utils.Print("Digite o seu ano de nascimento");
-		anoNascimento = Utils.ReadInt();
+		Utils.print("Digite o seu ano de nascimento");
+		anoNascimento = Utils.readInt();
 		idade = (2019 - anoNascimento);
 		
 		if(idade >= 16) {
-			Utils.Print("Ja atingiu a idade minima para votar.");
+			Utils.print("Ja atingiu a idade minima para votar.");
 		}else {
-			Utils.Print("Ainda não atingiu a idade minima para votar.");
+			Utils.print("Ainda não atingiu a idade minima para votar.");
 		}
 			
 		if(idade >= 18) {
-			Utils.Print("Ja atingiu a idade minima para tirar a habilitação.");
+			Utils.print("Ja atingiu a idade minima para tirar a habilitação.");
 		}else {
-			Utils.Print("Ainda não atingiu a idade minima para tirar a habilitação.");
+			Utils.print("Ainda não atingiu a idade minima para tirar a habilitação.");
 		}
 	}
-	
-	
-
 }

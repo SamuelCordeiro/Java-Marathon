@@ -13,17 +13,17 @@ public class Ex34 {
 		int qtdNumeros;
 		int faxaNumeros;
 		
-		Utils.Print("Digite quantos numeros deve ser gerado");
-		qtdNumeros = Utils.ReadInt();
-		Utils.Print("Digite a faxa de numeros que devem ser gerados");
-		faxaNumeros = Utils.ReadInt();
-		GeraInt(qtdNumeros, faxaNumeros);
+		Utils.print("Digite quantos numeros deve ser gerado");
+		qtdNumeros = Utils.readInt();
+		Utils.print("Digite a faxa de numeros que devem ser gerados");
+		faxaNumeros = Utils.readInt();
+		geraInt(qtdNumeros, faxaNumeros);
 		
 	}
-	public static void GeraInt (int qtdNumeros, int faxaNumeros){
+	public static void geraInt (int qtdNumeros, int faxaNumeros){
 		Random g = new Random();
 		for(int i = 0; i < qtdNumeros; i++) {
-        	Utils.Print(g.nextInt(faxaNumeros));
+        	Utils.print(g.nextInt(faxaNumeros));
         }
     }
 }

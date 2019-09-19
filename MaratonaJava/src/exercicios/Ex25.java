@@ -14,8 +14,8 @@ public class Ex25 {
 
 		for(int i = 0; i < 50; i ++){
 			for(int j = 0; j < 5; j++){
-				Utils.Print("Digite a " + (j + 1) + "° nota do " + (i + 1) + "° aluno");
-				notasAlunos[i][j] = Utils.ReadFloat();
+				Utils.print("Digite a " + (j + 1) + "° nota do " + (i + 1) + "° aluno");
+				notasAlunos[i][j] = Utils.readFloat();
 				mediaTotal += notasAlunos[i][j];
 				numeroNotas++;
 			}
@@ -29,6 +29,6 @@ public class Ex25 {
 			System.out.print("] \nMedia do " + (i + 1) + "° aluno: " + (mediaAlunos/ 5) );
 			mediaAlunos = 0;
 		}
-		Utils.Print("\nMedia geral da sala é: " + (mediaTotal / numeroNotas));
+		Utils.print("\nMedia geral da sala é: " + (mediaTotal / numeroNotas));
 	}
 }

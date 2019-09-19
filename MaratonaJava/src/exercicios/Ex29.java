@@ -15,30 +15,30 @@ public class Ex29 {
 		int[][] matriz = new int[5][5];
 		for(int i = 0; i < 5; i++) {
 			for(int j = 0; j < 5; j++) {
-				Utils.Print("Digite um numero: ");
-				matriz[i][j] = Utils.ReadInt();
+				Utils.print("Digite um numero: ");
+				matriz[i][j] = Utils.readInt();
 			}
 		}
-		DiagonalPrincipal(matriz);
-		TrianguloSuperiorDiagonalPrincipal(matriz);
-		TrianguloInferiorDiagonalPrincipal(matriz);
-		ExcetoDiagonalPrincipal(matriz);
-		DiagonalSecundaria(matriz);
-		TrianguloSuperiorDiagonalSecundaria(matriz);
-		TrianguloInferiorDiagonalSecundaria(matriz);
-		ExcetoDiagonalSecundaria(matriz);
+		diagonalPrincipal(matriz);
+		trianguloSuperiorDiagonalPrincipal(matriz);
+		trianguloInferiorDiagonalPrincipal(matriz);
+		excetoDiagonalPrincipal(matriz);
+		diagonalSecundaria(matriz);
+		trianguloSuperiorDiagonalSecundaria(matriz);
+		trianguloInferiorDiagonalSecundaria(matriz);
+		excetoDiagonalSecundaria(matriz);
 	}
 	
-	public static void DiagonalPrincipal(int[][] matriz) {
-		Utils.Print("Diagonal principal");
+	public static void diagonalPrincipal(int[][] matriz) {
+		Utils.print("Diagonal principal");
 		for(int i = 0; i < 5; i++) {
 			System.out.print("|" + matriz[i][i]);
 		}
 		System.out.print("| \n");
 	}
 	
-	public static void TrianguloSuperiorDiagonalPrincipal(int[][] matriz) {
-		Utils.Print("Triangulo superior a diagonal principal");
+	public static void trianguloSuperiorDiagonalPrincipal(int[][] matriz) {
+		Utils.print("Triangulo superior a diagonal principal");
 		for(int i = 0; i < 5; i++) {
 			for(int j = 0; j < 5; j++) {
 				if(i < j) {
@@ -49,8 +49,8 @@ public class Ex29 {
 		System.out.print("| \n");
 	}
 	
-	public static void TrianguloInferiorDiagonalPrincipal(int[][] matriz) {
-		Utils.Print("Triangulo superior a diagonal principal");
+	public static void trianguloInferiorDiagonalPrincipal(int[][] matriz) {
+		Utils.print("Triangulo superior a diagonal principal");
 		for(int i = 0; i < 5; i++) {
 			for(int j = 0; j < 5; j++) {
 				if(i > j) {
@@ -61,8 +61,8 @@ public class Ex29 {
 		System.out.print("| \n");
 	}
 	
-	public static void ExcetoDiagonalPrincipal(int[][] matriz) {
-		Utils.Print("Exceto a diagonal principal");
+	public static void excetoDiagonalPrincipal(int[][] matriz) {
+		Utils.print("Exceto a diagonal principal");
 		for(int i = 0; i < 5; i++) {
 			for(int j = 0; j < 5; j++) {
 				if(i != j) {
@@ -73,8 +73,8 @@ public class Ex29 {
 		System.out.print("|\n");
 	}
 	
-	public static void DiagonalSecundaria(int[][] matriz) {
-		Utils.Print("Diagonal secundaria");
+	public static void diagonalSecundaria(int[][] matriz) {
+		Utils.print("Diagonal secundaria");
 		int j = 4;
 		for(int i = 0; i < 5; i++) {
 			System.out.print("|" + matriz[i][j]);
@@ -83,8 +83,8 @@ public class Ex29 {
 		System.out.print("| \n");
 	}
 	
-	public static void TrianguloSuperiorDiagonalSecundaria(int[][] matriz) {
-		Utils.Print("Triangulo superior a diagonal secundaria");
+	public static void trianguloSuperiorDiagonalSecundaria(int[][] matriz) {
+		Utils.print("Triangulo superior a diagonal secundaria");
 		int h = 4;
 		for(int i = 0; i < 5; i++) {
 			for(int j =0; j < 5; j++) {
@@ -97,8 +97,8 @@ public class Ex29 {
 		System.out.print("| \n");
 	}
 	
-	public static void TrianguloInferiorDiagonalSecundaria(int[][] matriz) {
-		Utils.Print("Triangulo inferior a diagonal secundaria");
+	public static void trianguloInferiorDiagonalSecundaria(int[][] matriz) {
+		Utils.print("Triangulo inferior a diagonal secundaria");
 		int h = 4;
 		for(int i = 0; i < 5; i++) {
 			for(int j =0; j < 5; j++) {
@@ -111,8 +111,8 @@ public class Ex29 {
 		System.out.print("| \n");
 	}
 	
-	public static void ExcetoDiagonalSecundaria(int[][] matriz) {
-		Utils.Print("Exceto a diagonal secundaria");
+	public static void excetoDiagonalSecundaria(int[][] matriz) {
+		Utils.print("Exceto a diagonal secundaria");
 		int h = 4;
 		for(int i = 0; i < 5; i++) {
 			for(int j = 0; j < 5; j++) {

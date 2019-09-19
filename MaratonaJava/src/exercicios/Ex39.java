@@ -20,14 +20,14 @@ public class Ex39 {
 		int mes;
 		int ano;
 		
-		Utils.Print("Digite um dia");
-		dia = Utils.ReadInt();
-		Utils.Print("Digite um mes em numero");
-		mes = Utils.ReadInt();
-		Utils.Print("Digite um ano");
-		ano = Utils.ReadInt();
+		Utils.print("Digite um dia");
+		dia = Utils.readInt();
+		Utils.print("Digite um mes em numero");
+		mes = Utils.readInt();
+		Utils.print("Digite um ano");
+		ano = Utils.readInt();
 		
-		PrintDiaSemana(diaSemana(dia,mes,ano));
+		printDiaSemana(diaSemana(dia,mes,ano));
 	}
 	
 	public static int diaSemana(int dia,int mes,int ano){
@@ -41,7 +41,7 @@ public class Ex39 {
 		   f%=7;
 		   return(f);
 		}
-	public static void PrintDiaSemana(int dia) {
+	public static void printDiaSemana(int dia) {
  		String s = "";
  		switch (dia) {
 		case 0:
@@ -70,6 +70,6 @@ public class Ex39 {
 			break;
 		}
  		
- 		Utils.Print("Dia da semana: " + s);
+ 		Utils.print("Dia da semana: " + s);
  	}
 }

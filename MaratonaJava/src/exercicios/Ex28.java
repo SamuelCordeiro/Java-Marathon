@@ -13,8 +13,8 @@ public class Ex28 {
 		int[] somaColuna = new int[5];
 		for(int i = 0; i < 5; i++) {
 			for(int j = 0; j < 5; j ++) {
-				Utils.Print("Digite um numero: ");
-				matriz[i][j] = Utils.ReadInt();
+				Utils.print("Digite um numero: ");
+				matriz[i][j] = Utils.readInt();
 			}
 		}
 		for(int i = 0; i < 5; i++) {
@@ -23,15 +23,15 @@ public class Ex28 {
 				somaColuna[i] += matriz[j][i];
 			}
 		}
-		Utils.Print("Matriz: ");
+		Utils.print("Matriz: ");
 		for(int i=0 ; i < 5; i++){
 			System.out.print("\n");
             for(int j = 0; j < 5; j ++){
                 System.out.print("| " + matriz[i][j] + " |");
             }
         }
-		Utils.Print("\nSoma das linhas \n" + Arrays.toString(somaLinha));
-		Utils.Print("Soma das colunas \n" + Arrays.toString(somaColuna));
+		Utils.print("\nSoma das linhas \n" + Arrays.toString(somaLinha));
+		Utils.print("Soma das colunas \n" + Arrays.toString(somaColuna));
 	}
 
 }

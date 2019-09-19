@@ -10,13 +10,13 @@ public class Ex03 {
 		 * Mostre o resultado
 		 */
 		
-		Utils.Print("Digite a cotação do Dolar");
-		float cotacaoDolar = Utils.ReadFloat();
+		Utils.print("Digite a cotação do Dolar");
+		float cotacaoDolar = Utils.readFloat();
 		
-		Utils.Print("Digite um valor para ser convertido em Reais");
-		float valorDolar = Utils.ReadFloat();
+		Utils.print("Digite um valor para ser convertido em Reais");
+		float valorDolar = Utils.readFloat();
 		
-		Utils.Print("Com a cotação de " + cotacaoDolar + " o valor de " + valorDolar +
+		Utils.print("Com a cotação de " + cotacaoDolar + " o valor de " + valorDolar +
 				" Dolares são: " + (cotacaoDolar * valorDolar) + " em Reais.");
 	}
 

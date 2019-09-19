@@ -7,15 +7,15 @@ public class Ex05 {
 		 * Se positivo armazene-o em A, se for negativo, em B. 
 		 * No final mostrar o resultado.*/
 		
-		Utils.Print("Digite um numero");
-		int n = Utils.ReadInt();
+		Utils.print("Digite um numero");
+		int n = Utils.readInt();
 		
 		if(n > 0) {
 			int a = n;
-			Utils.Print("O numero " + a + " é positivo");
+			Utils.print("O numero " + a + " é positivo");
 		}else {
 			int b = n;
-			Utils.Print("O numero " + b + " é negativo");
+			Utils.print("O numero " + b + " é negativo");
 		}
 	}
 }

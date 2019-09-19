@@ -9,16 +9,16 @@ public class Ex08 {
 		 *Para homens: (72.7*h) - 58
 		 *Para mulheres: (62.1*h) - 44.7 (h = altura)*/
 		
-		Utils.Print("Digite m se for do genero masculino e f se for do feminino");
-		String sexo = Utils.ReadString();
+		Utils.print("Digite m se for do genero masculino e f se for do feminino");
+		String sexo = Utils.readString();
 		
-		Utils.Print("Digite a sua altura");
-		double altura = Utils.ReadDouble();
+		Utils.print("Digite a sua altura");
+		double altura = Utils.readDouble();
 		
 		if(sexo == "m") {
-			Utils.Print("O seu peso ideal é: " + ((72.2 * altura) - 58));
+			Utils.print("O seu peso ideal é: " + ((72.2 * altura) - 58));
 		}else {
-			Utils.Print("O seu peso ideal é: " + ((62.1 * altura) - 44.7));
+			Utils.print("O seu peso ideal é: " + ((62.1 * altura) - 44.7));
 		}
 	}
 

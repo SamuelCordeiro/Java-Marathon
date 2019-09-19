@@ -8,9 +8,9 @@ public class Ex38 {
 		 * Um ano é bissexto se for divisível por 4, mas não por 100. 
 		 * Um ano também é bissexto se for divisível por 400.*/
 		int ano;
-		Utils.Print("Digite um ano");
-		ano = Utils.ReadInt();
-		PrintBissexto(ano, Bissexto(ano));
+		Utils.print("Digite um ano");
+		ano = Utils.readInt();
+		printBissexto(ano, Bissexto(ano));
 	}
 	
 	public static int Bissexto(int ano) {
@@ -23,11 +23,11 @@ public class Ex38 {
 			}
 	}
 	
-	public static void PrintBissexto(int ano, int n) {
+	public static void printBissexto(int ano, int n) {
 		if(n == 1) {
-			Utils.Print(ano +" é bissexto");
+			Utils.print(ano +" é bissexto");
 		}else {
-			Utils.Print(ano +" não é bissexto");
+			Utils.print(ano +" não é bissexto");
 		}
 	}
 }

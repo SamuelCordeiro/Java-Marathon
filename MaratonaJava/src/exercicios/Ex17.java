@@ -12,10 +12,10 @@ public class Ex17 {
 		int[] vet = new int[3];
 		
 		for(int i = 0; i < vet.length; i++) {
-			Utils.Print("Digite um numero");
-			vet[i] = Utils.ReadInt();
+			Utils.print("Digite um numero");
+			vet[i] = Utils.readInt();
 		}
 		Arrays.sort(vet);
-		Utils.Print(Arrays.toString(vet));
+		Utils.print(Arrays.toString(vet));
 	}
 }

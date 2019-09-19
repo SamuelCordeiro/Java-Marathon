@@ -8,11 +8,11 @@ public class Ex32 {
 		 * Para o cálculo do volume deve ser usada a fórmula seguinte: 
 		 * volume=(4.0/3.0)*PI*raio³.*/
 		double raio;
-		Utils.Print("Digite o raio: ");
-		raio = Utils.ReadDouble();
-		Utils.Print("Volume da esfera do raio digitado é:" + VolumeEsfera(raio));
+		Utils.print("Digite o raio: ");
+		raio = Utils.readDouble();
+		Utils.print("Volume da esfera do raio digitado é:" + volumeEsfera(raio));
 	}
-	public static double VolumeEsfera(double raio) {
+	public static double volumeEsfera(double raio) {
 		double volume = ((4.0 / 3.0) * PI * (Math.pow(raio, 3)));
 		return volume;
 	}

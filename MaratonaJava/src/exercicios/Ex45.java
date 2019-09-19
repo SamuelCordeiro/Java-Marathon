@@ -9,16 +9,16 @@ public class Ex45 {
 		int media = 0;
 		
 		for(int i = 0; i < 10; i++) {
-			Utils.Print("Digite um numero: ");
-			vetor[i] = Utils.ReadInt();
+			Utils.print("Digite um numero: ");
+			vetor[i] = Utils.readInt();
 			media += vetor[i];
 		}
 		media /= 10;
-		Utils.Print("Media: " + media);
-		Utils.Print("Valores maiores que a media: ");
+		Utils.print("Media: " + media);
+		Utils.print("Valores maiores que a media: ");
 		for(int i = 0; i < 10; i++) {
 			if(vetor[i] > media) {
-				Utils.Print(vetor[i]);
+				Utils.print(vetor[i]);
 			}
 		}
 	}

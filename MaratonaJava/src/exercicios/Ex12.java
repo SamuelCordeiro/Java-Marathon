@@ -7,7 +7,7 @@ public class Ex12 {
 
 		for(int i = 0; i <= 100; i++) {
 			if(i % 10 == 0) {
-				Utils.Print(i + " é multiplo de 10");
+				Utils.print(i + " é multiplo de 10");
 			}
 		}
 	}

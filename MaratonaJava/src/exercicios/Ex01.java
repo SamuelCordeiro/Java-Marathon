@@ -7,13 +7,13 @@ public class Ex01 {
 		/*Faca um programa para somar dois numeros e
 		 * multiplicar o resultado pelo primeiro numero.*/
 		
-		Utils.Print("Digite um numero:");
-		float numero1 = Utils.ReadFloat();
+		Utils.print("Digite um numero:");
+		float numero1 = Utils.readFloat();
 		
-		Utils.Print("Digite outro numero:");
-		float numero2 = Utils.ReadFloat();
+		Utils.print("Digite outro numero:");
+		float numero2 = Utils.readFloat();
 		
-		Utils.Print((numero1 + numero2) * numero1);
+		Utils.print((numero1 + numero2) * numero1);
 		
 		
 		

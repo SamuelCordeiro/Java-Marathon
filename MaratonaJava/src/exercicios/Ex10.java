@@ -13,8 +13,8 @@ public class Ex10 {
 		int soma = 0;
 		
 		for(int i = 0; i < vet.length; i ++) {
-			Utils.Print("Digite um numero: ");
-			vet[i] = Utils.ReadInt();
+			Utils.print("Digite um numero: ");
+			vet[i] = Utils.readInt();
 		}
 		
 		maior = vet[1];
@@ -29,7 +29,7 @@ public class Ex10 {
 				menor = vet[i];
 			}
 		}
-		Utils.Print("\n Maior valor: " + maior 
+		Utils.print("\n Maior valor: " + maior 
 				+ "\n Menor valor: " + menor 
 				+ "\n Media dos valores: " + soma / vet.length);
 	}

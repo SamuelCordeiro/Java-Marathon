@@ -9,14 +9,14 @@ public class Ex37 {
 		 * imprimindo o preço da mercadoria depois do aumento, 
 		 * bem como o percentual aplicado.*/
 		float preco;
-		Utils.Print("Digite o preço atual");
-		preco = Utils.ReadFloat();
-		Reajuste(preco);
+		Utils.print("Digite o preço atual");
+		preco = Utils.readFloat();
+		reajuste(preco);
 	}
-	public static void Reajuste(float preco) {
+	public static void reajuste(float preco) {
 		float percentual = ((preco * 20)/ 100);
-		Utils.Print("Preço atual: " + preco);
-		Utils.Print("Preço reajustado: " + (preco + percentual));
-		Utils.Print("Percentual do reajuste: " + percentual);
+		Utils.print("Preço atual: " + preco);
+		Utils.print("Preço reajustado: " + (preco + percentual));
+		Utils.print("Percentual do reajuste: " + percentual);
 	}
 }

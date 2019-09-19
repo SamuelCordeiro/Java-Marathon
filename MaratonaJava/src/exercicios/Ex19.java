@@ -15,17 +15,17 @@ public class Ex19 {
 		float resultado = 0;
 		char operacao;
 		
-		Utils.Print("Digite o primeiro numero");
-		n1 = Utils.ReadFloat();
-		Utils.Print("Digite o segundo numero");
-		n2 = Utils.ReadFloat();
+		Utils.print("Digite o primeiro numero");
+		n1 = Utils.readFloat();
+		Utils.print("Digite o segundo numero");
+		n2 = Utils.readFloat();
 		
-		Utils.Print("Digite qual operação deseja fazer \n"
+		Utils.print("Digite qual operação deseja fazer \n"
 				+ " + Adição \n "
 				+ "- Subtração \n" 
 				+ " * Multiplicação \n "
 				+ "/ Divisão");
-		operacao = Utils.ReadChar();
+		operacao = Utils.readChar();
 		
 		switch(operacao) {
 		case '+':
@@ -45,9 +45,9 @@ public class Ex19 {
 			break;
 			
 		default:
-			Utils.Print("Erro, operação não reconhecida");
+			Utils.print("Erro, operação não reconhecida");
 		}
 		
-		Utils.Print("Resultado da operação: " + resultado);
+		Utils.print("Resultado da operação: " + resultado);
 	}
 }

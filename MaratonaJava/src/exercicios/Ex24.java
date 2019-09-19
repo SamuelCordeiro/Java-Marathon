@@ -21,11 +21,11 @@ public class Ex24 {
 		ArrayList<Integer> elementos40 = new ArrayList<Integer>();
 		
 		for(int i = 0; i < vet.length; i++) {
-			Utils.Print("Digite um numero:");
-			vet[i] = Utils.ReadInt();
+			Utils.print("Digite um numero:");
+			vet[i] = Utils.readInt();
 		}
-		Utils.Print("Vetor: ");
-		Utils.Print(Arrays.toString(vet));
+		Utils.print("Vetor: ");
+		Utils.print(Arrays.toString(vet));
 		
 		for(int i = 0; i < vet.length; i++) {
 			if(vet[i] == 40) {
@@ -44,9 +44,9 @@ public class Ex24 {
 			elementosMultiplos10[i] = vet[i * 10];
 		}
 		
-		Utils.Print("Existe o numero 40 nas posições: \n" + elementos40.toString());
-		Utils.Print("Quantidade de numeros 10 no vetor: " + qtdNumero10);
-		Utils.Print("Maior numero: " + maior + "\nIndice do maior numero: " + indiceMaior);
-		Utils.Print(Arrays.toString(elementosMultiplos10));
+		Utils.print("Existe o numero 40 nas posições: \n" + elementos40.toString());
+		Utils.print("Quantidade de numeros 10 no vetor: " + qtdNumero10);
+		Utils.print("Maior numero: " + maior + "\nIndice do maior numero: " + indiceMaior);
+		Utils.print(Arrays.toString(elementosMultiplos10));
 	}
 }

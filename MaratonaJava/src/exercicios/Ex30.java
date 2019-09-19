@@ -11,19 +11,18 @@ public class Ex30 {
 		String[] email = new String[40];
 		
 		for(int i = 0; i < 40; i++) {
-			Utils.Print("Digite a matricula do aluno:");
-			matricula[i] = Utils.ReadString();
-			Utils.Print("Digite o nome do aluno:");
-			nome[i] = Utils.ReadString();
-			Utils.Print("Digite o Email do aluno:");
-			email[i] = Utils.ReadString();
+			Utils.print("Digite a matricula do aluno:");
+			matricula[i] = Utils.readString();
+			Utils.print("Digite o nome do aluno:");
+			nome[i] = Utils.readString();
+			Utils.print("Digite o Email do aluno:");
+			email[i] = Utils.readString();
 		}
 		for(int i = 0; i < 40; i++) {
-			Utils.Print("Matricula do aluno: " + matricula[i]);
-			Utils.Print("Nome do aluno: " + nome[i]);
-			Utils.Print("Email do aluno: " + email[i]);
-			Utils.Print("");
+			Utils.print("Matricula do aluno: " + matricula[i]);
+			Utils.print("Nome do aluno: " + nome[i]);
+			Utils.print("Email do aluno: " + email[i]);
+			Utils.print("");
 		}
 	}
-
 }

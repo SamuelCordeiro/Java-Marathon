@@ -10,18 +10,18 @@ public class Ex43_Aluno {
 	private int grau;
 	
 	public void SolicitarDados() {
-		Utils.Print("Digite o nome");
-		nome = Utils.ReadString();
-		Utils.Print("Digite a série");
-		serie = Utils.ReadInt();
-		Utils.Print("Digite o grau");
-		grau = Utils.ReadInt();
+		Utils.print("Digite o nome");
+		nome = Utils.readString();
+		Utils.print("Digite a série");
+		serie = Utils.readInt();
+		Utils.print("Digite o grau");
+		grau = Utils.readInt();
 	}
 	
 	public void ImprimirDados() {
-		Utils.Print("Nome: " + nome);
-		Utils.Print("Série: " + serie);
-		Utils.Print("Grau: " + grau);
+		Utils.print("Nome: " + nome);
+		Utils.print("Série: " + serie);
+		Utils.print("Grau: " + grau);
 	}
 	
 	

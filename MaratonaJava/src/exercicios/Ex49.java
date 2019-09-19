@@ -29,8 +29,8 @@ public class Ex49 {
 					i++;					
 				}
 				bufferFile.close();
-				Utils.Print("Soma dos numeros " + soma);
-				Utils.Print("Media dos numeros " + (soma / i));
+				Utils.print("Soma dos numeros " + soma);
+				Utils.print("Media dos numeros " + (soma / i));
 			}catch(Exception e){
 			}
 		}

@@ -9,12 +9,12 @@ public class Ex20 {
 		 float[] vet = new float[10];
 		 float soma = 0;
 		 for(int i = 0; i < vet.length; i++) {
-			 Utils.Print("Digite um numero");
-			 vet[i] = Utils.ReadFloat();
+			 Utils.print("Digite um numero");
+			 vet[i] = Utils.readFloat();
 			 soma += vet[i];
 		 }
 		 
-		 Utils.Print("Soma dos numeros digitados: " + soma 
+		 Utils.print("Soma dos numeros digitados: " + soma 
 				 + "\n Media dos valores digitados: " + (soma / vet.length));
 	}
 

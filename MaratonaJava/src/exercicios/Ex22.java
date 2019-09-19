@@ -14,8 +14,8 @@ public class Ex22 {
 		float alunosAcimaMedia = 0;
 		
 		for(int i = 0; i < vet.length; i++) {
-			Utils.Print("Digite uma nota:");
-			vet[i] = Utils.ReadFloat();
+			Utils.print("Digite uma nota:");
+			vet[i] = Utils.readFloat();
 			media += vet[i];
 		}
 		
@@ -27,9 +27,9 @@ public class Ex22 {
 			}
 		}
 		
-		Utils.Print("Todas as notas: \n" + Arrays.toString(vet));
-		Utils.Print("Media das notas: " + media);
-		Utils.Print("Total de alunos acima da media: " + alunosAcimaMedia );
+		Utils.print("Todas as notas: \n" + Arrays.toString(vet));
+		Utils.print("Media das notas: " + media);
+		Utils.print("Total de alunos acima da media: " + alunosAcimaMedia );
 	}
 
 }

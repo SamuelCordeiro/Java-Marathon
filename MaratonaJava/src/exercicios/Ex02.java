@@ -6,12 +6,12 @@ public class Ex02 {
 		/*Faça um programa para Calcular o estoque medio de uma peça, sendo que:
 		 *ESTOQUEMADIO = (QUANTIDADE MANIMA + QUANTIDADE MAXIMA) /2.*/
 		
-		Utils.Print("Digite a quantidade minima da Peça:");
-		int qMinima = Utils.ReadInt();
+		Utils.print("Digite a quantidade minima da Peça:");
+		int qMinima = Utils.readInt();
 		
-		Utils.Print("Digite a quantidade maxima da peça:");
-		int qMaxima = Utils.ReadInt();
+		Utils.print("Digite a quantidade maxima da peça:");
+		int qMaxima = Utils.readInt();
 		
-		Utils.Print("O estoque medio da peça é: " + ((qMinima + qMaxima) / 2));
+		Utils.print("O estoque medio da peça é: " + ((qMinima + qMaxima) / 2));
 	}
 }

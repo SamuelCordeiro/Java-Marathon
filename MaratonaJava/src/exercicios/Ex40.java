@@ -11,10 +11,10 @@ public class Ex40 {
 		
 
 	}
-	public static float Divide(float numero1, float numero2) {
+	public static float divide(float numero1, float numero2) {
 		return numero1 / numero2;
 	}
-	public static float Divide(float numero1) {
+	public static float divide(float numero1) {
 		return numero1 / 10;
 	}
 

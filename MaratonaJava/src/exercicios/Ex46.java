@@ -9,16 +9,16 @@ public class Ex46 {
 		String[] nomes = new String[10];
 		String nome;
 		for(int i = 0; i < 10; i++) {
-			Utils.Print("Digite um nome: ");
-			nomes[i] = Utils.ReadString();
+			Utils.print("Digite um nome: ");
+			nomes[i] = Utils.readString();
 		}
 		
-		Utils.Print("Digite um nome para ser verificado: ");
-		nome = Utils.ReadString();
+		Utils.print("Digite um nome para ser verificado: ");
+		nome = Utils.readString();
 		
 		for(int i = 0; i < 10; i++) {
 			if(nomes[i].equals(nome)) {
-				Utils.Print("Usuario cadastrado ");
+				Utils.print("Usuario cadastrado ");
 				break;
 			}	
 		}

@@ -12,19 +12,19 @@ public class Ex27 {
 		
 		for (int i = 0; i < 2; i++) {
 			for(int j = 0; j < 4; j++) {
-				Utils.Print("Digite um numero para matriz A: ");
-				matrizA[i][j] = Utils.ReadInt();
+				Utils.print("Digite um numero para matriz A: ");
+				matrizA[i][j] = Utils.readInt();
 				matrizC[i][j] = matrizA[i][j];
 			}
 		}
 		for (int i = 0; i < 2; i++) {
 			for(int j = 0; j < 4; j++) {
-				Utils.Print("Digite um numero para a matriz B: ");
-				matrizB[i][j] = Utils.ReadInt();
+				Utils.print("Digite um numero para a matriz B: ");
+				matrizB[i][j] = Utils.readInt();
 				matrizC[i][j] += matrizA[i][j];
 			}
 		}
-		Utils.Print("Matriz C: ");
+		Utils.print("Matriz C: ");
 		for(int i=0 ; i < 2 ; i++){
 			System.out.print("\n");
             for(int j = 0; j < 4 ; j ++){

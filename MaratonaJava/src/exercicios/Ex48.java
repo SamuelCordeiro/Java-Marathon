@@ -17,12 +17,12 @@ public class Ex48 {
 		boolean acertou = false;
 		
 		for(int i = tentativas; i > 0; i--) {
-			Utils.Print("Digite uma letra: ");
-			letraDigitada = Utils.ReadChar();
+			Utils.print("Digite uma letra: ");
+			letraDigitada = Utils.readChar();
 			
 			for(int j = 0; j < tamanhoPalavra; j++) {
 				if(letraDigitada == palavraExibida.charAt(j)) {
-					Utils.Print("Letra ja digitada");
+					Utils.print("Letra ja digitada");
 					tentativas++;
 					break;
 				}
@@ -33,21 +33,21 @@ public class Ex48 {
 				}	
 			}
 			if(acertou) {
-				Utils.Print("Acertou \n");
+				Utils.print("Acertou \n");
 				i++;
 				acertou = false;
 			}else {
-				Utils.Print("Errou \n");
+				Utils.print("Errou \n");
 			}
-			Utils.Print(palavraExibida);
+			Utils.print(palavraExibida);
 			if(palavra.equals(palavraExibida)){
 				break;
 			}
 		}
 		if(palavra.equals(palavraExibida)){
-			Utils.Print("\nVitoria");
+			Utils.print("\nVitoria");
 		}else {
-			Utils.Print("\nDerrota");
+			Utils.print("\nDerrota");
 		}
 	}
 }

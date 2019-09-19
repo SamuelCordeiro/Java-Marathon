@@ -8,9 +8,9 @@ public class Ex41 {
 		 * e retorne a soma dos n primeiros números inteiros. 
 		 * Por exemplo, se a função receber n=5, deve retornar 15, pois 15=1+2+3+4+5.*/
 		int numero;
-		Utils.Print("Digite um numero");
-		numero = Utils.ReadInt();
-		Utils.Print(Soma(numero, numero));
+		Utils.print("Digite um numero");
+		numero = Utils.readInt();
+		Utils.print(Soma(numero, numero));
 	}
 	public static int Soma(int numero , int i) {	
 		if(i == 1) {
